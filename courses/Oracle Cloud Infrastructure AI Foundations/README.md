@@ -41,8 +41,12 @@ The goal is for the agent to learn a policy (a strategy for choosing actions) th
 
 Primary purpose of reinforcement machine learning is **learning from outcomes to make decisions**
 
-
 ## Deep Learning Foundations
+
+Deep learning is a subset of ML that focuses on training Artifical Neural Networks (ANNs) with multiple layers. Example: Image Classification, Computer Vision, NLP, Speech recognition, Text Translation, Another Subset of AI (Gen AI)
+
+ML needs us to specify features whereas DL extracts features from raw and complex data. Use the extracted features to build internal representation which is not possible to do it manually.
+
 
 ## GenAI and LLM Foundations
 
@@ -58,3 +62,4 @@ Primary purpose of reinforcement machine learning is **learning from outcomes to
 - https://www.youtube.com/watch?v=15aLvsG5tlg
 - https://www.youtube.com/watch?v=3PYeGBX-EkU
 - https://www.youtube.com/watch?v=53AwXHyC7SE
+- https://www.edushots.com/Machine-Learning/unsupervised-machine-learning-overview
