@@ -34,14 +34,14 @@ A supervised ML technique used to categorize or assign data points into predefin
 
 Classification algorithms
 - Logistic Regression
-- 
 
 **Logistic Regression**
 Helps to predict if something is true or false. Instead of fitting a straight line to the data as in the case of linear regression. Logistic regression fits an S-Shaped curve called ```sigmoid function``` to fit the data.
 
-
 #### Regression
 
+Regression algorithms
+- Linear Regression
 
 
 Important Notes:
@@ -70,11 +70,13 @@ DL is a subset of ML for which features cannot be described easily.
 ### What is Artificial Neural Network
 An artificial neural network (ANN) is a computational model inspired by the structure and function of the human brain's neural networks. It's designed to process information by learning from data, rather than through explicit programming
 
+<img src="images/ann_network.gif"/>
+
 Key Concepts:
-- Neurons: ANNs consist of interconnected nodes, called artificial neurons, organized in layers. 
+- Neurons: **A computational unit that processes input data and produces an output**. Neurons receive input signals, perform calculations on them, and generate an output signal. **Artificial neurons, often called nodes**. ANNs consist of interconnected nodes, called artificial neurons and are organized in layers. 
 - Connections: These neurons are linked by connections that have associated weights, which determine the strength of the connection. 
 - Learning: The network learns by adjusting these weights based on input data and desired outputs, a process often involving backpropagation. 
-- Layers: ANNs typically have an input layer, one or more hidden layers, and an output layer. 
+- Layers: ANNs typically have an input layer, one or more hidden layers, and an output layer. **Groupings of interconnected nodes (artificial neurons) that process data in a specific way**
 - Activation Functions: Each neuron applies an activation function to the weighted sum of its inputs, determining the neuron's output. 
 
 ### How ANN work
@@ -83,6 +85,9 @@ How it works:
 2. Processing: The input is passed through the hidden layers, where each neuron performs calculations based on its connections and activation function. 
 3. Output: The final layer produces the network's output, which is the result of the computations. 
 4. Learning: The network compares its output to the desired output and adjusts the connection weights to minimize the difference, improving its accuracy over time. (ANNs are trained using the backpropagation algorithm)
+
+
+#### How ANNs are trained
 
 <img src="images/ann_training_backpropagation_method.png"/>
 In the training of the picture for digits, During the guess and compare, the guess is what the model gave say digit '6' for input '4' and it is compared with the desired result of '4'. Now, the error is measured and the weights are adjusted.
