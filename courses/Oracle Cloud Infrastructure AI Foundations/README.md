@@ -29,8 +29,22 @@ Types of Supervised Machine learning
 
 <img src="images/types_of_supervised_learning.png"/>
 
-Important Notes:
+#### Classification
+A supervised ML technique used to categorize or assign data points into predefined classes/categories based on their features or attributes. Classifier is trained on a labelled dataset.
 
+Classification algorithms
+- Logistic Regression
+- 
+
+**Logistic Regression**
+Helps to predict if something is true or false. Instead of fitting a straight line to the data as in the case of linear regression. Logistic regression fits an S-Shaped curve called ```sigmoid function``` to fit the data.
+
+
+#### Regression
+
+
+
+Important Notes:
 - Logistic Regression. **Though it has the name regression, it is a Classification and not regression**. Logistic Regression is a binary classification algorithm.
 
 ### Unsupervised Machine Learning
@@ -72,7 +86,7 @@ How it works:
 
 <img src="images/ann_training_backpropagation_method.png"/>
 In the training of the picture for digits, During the guess and compare, the guess is what the model gave say digit '6' for input '4' and it is compared with the desired result of '4'. Now, the error is measured and the weights are adjusted.
-By showing thousands of images and adjusting the weights iteratively, ANN is able to predict the output for most of the images. This process of adjusting the weights using the backprogration algorithm is how the ANNs are trained.
+By showing thousands of images and adjusting the weights iteratively, ANN is able to predict the output for most of the images. **This process of adjusting the weights using the backprogration algorithm is how the ANNs are trained.**
 
 
 
