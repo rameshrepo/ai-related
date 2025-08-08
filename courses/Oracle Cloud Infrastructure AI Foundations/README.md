@@ -32,16 +32,23 @@ Types of Supervised Machine learning
 #### Classification
 A supervised ML technique used to categorize or assign data points into predefined classes/categories based on their features or attributes. Classifier is trained on a labelled dataset.
 
-Classification algorithms
+**List of Classification algorithms**
 - Logistic Regression
+- Decision Trees
+- Random Forest
+- KNN (K-Nearest Neighbours)
+- Naive Bayes
+- Support Vector Machines
 
 **Logistic Regression**
+
 Helps to predict if something is true or false. Instead of fitting a straight line to the data as in the case of linear regression. Logistic regression fits an S-Shaped curve called ```sigmoid function``` to fit the data.
 
 #### Regression
 
-Regression algorithms
+**List of Regression algorithms**
 - Linear Regression
+- 
 
 
 Important Notes:
@@ -74,7 +81,7 @@ An artificial neural network (ANN) is a computational model inspired by the stru
 
 Key Concepts:
 - Neurons: **A computational unit that processes input data and produces an output**. Neurons receive input signals, perform calculations on them, and generate an output signal. **Artificial neurons, often called nodes**. ANNs consist of interconnected nodes, called artificial neurons and are organized in layers. 
-- Connections: These neurons are linked by connections that have associated weights, which determine the strength of the connection. 
+- Connections: These neurons are linked by connections that have associated weights, which determine the strength of the connection. Weights determine the strength of connection between neurons.
 - Learning: The network learns by adjusting these weights based on input data and desired outputs, a process often involving backpropagation. 
 - Layers: ANNs typically have an input layer, one or more hidden layers, and an output layer. **Groupings of interconnected nodes (artificial neurons) that process data in a specific way**
 - Activation Functions: Each neuron applies an activation function to the weighted sum of its inputs, determining the neuron's output. 
@@ -86,14 +93,51 @@ How it works:
 3. Output: The final layer produces the network's output, which is the result of the computations. 
 4. Learning: The network compares its output to the desired output and adjusts the connection weights to minimize the difference, improving its accuracy over time. (ANNs are trained using the backpropagation algorithm)
 
-
 #### How ANNs are trained
 
 <img src="images/ann_training_backpropagation_method.png"/>
 In the training of the picture for digits, During the guess and compare, the guess is what the model gave say digit '6' for input '4' and it is compared with the desired result of '4'. Now, the error is measured and the weights are adjusted.
 By showing thousands of images and adjusting the weights iteratively, ANN is able to predict the output for most of the images. **This process of adjusting the weights using the backprogration algorithm is how the ANNs are trained.**
 
+### Deep Learning Models
+Deep learning models can be broadly categorized based on their ability to handle sequential data, distinguishing between sequence models and non-sequence models.
 
+**Broad Classification of Deep Learning Models**
+- Sequence Models
+- Non-Sequence Models
+
+**Deep learning algorithms for sequential problems**
+- Recurrent Neural Network (RNN)
+- Long Short-Term Memory (LSTM) 
+- Gated Recurrent Unit (GRU) Networks
+- Transformers
+
+**Deep learning algorithms for non-sequential problems**
+- Convolutional Neural Network (CNN)
+- Feedforward Neural Networks (FNNs) / Multi-Layer Perceptrons (MLPs)
+- Autoencoders (AEs)
+- Deep Belief Networks (DBNs)
+- Generative Adversarial Networks (GANs)
+
+#### Sequence Models
+Sequential models deal with **ordered data** where the order or sequence of the input matters. These models are widely used in tasks where **context from previous data points affects the output**. These problems are prevalent in areas such as natural language processing (NLP) for tasks like machine translation, sentiment analysis, text generations, time series analysis, speech recognition to convert recorded audio to text and more
+Characteristics:
+- **Order Matters**: Data is processed in a sequence, maintaining the context of past or future inputs.
+- **State Dependency**: Outputs depend on previous inputs (e.g., in time-series forecasting or text generation).
+
+#### Non-Sequential Models
+Non-sequential models handle unordered data, where the relationships or patterns within the data do not depend on sequence or time.
+Characteristics:
+- **Order Doesn’t Matter**: Data is treated as independent points, with no dependency on previous or future data points.
+- **No Memory Component**: These models process inputs independently.
+- **Global Relationships**: Focus on capturing global patterns or relationships between features.
+
+Key Differences between Sequence and Non-sequential models:
+- Input Dependency: Sequential models rely on the order of input data, where past or future inputs influence the output. Non-sequential models process each input independently, without considering any sequence.
+- Order Sensitivity: Sequential models are sensitive to the order of the data, as the sequence provides context. Non-sequential models treat data as unordered, where the order of inputs does not matter.
+- Architecture: Sequential models use architectures like RNNs, LSTMs, GRUs, or Transformers, which are designed to handle dependencies over time. Non-sequential models include decision trees, support vector machines, convolutional neural networks (CNNs), and feedforward neural networks (FNNs).
+- Applications: Sequential models are ideal for tasks like time-series forecasting, natural language processing, and speech recognition. Non-sequential models are suited for static tasks like image classification, tabular data analysis, and clustering.
+- Complexity: Sequential models are generally more complex due to the need to handle memory, attention, and dependencies. Non-sequential models are typically simpler, focusing on global patterns or relationships.
 
 
 
@@ -114,3 +158,4 @@ By showing thousands of images and adjusting the weights iteratively, ANN is abl
 - https://www.youtube.com/watch?v=3PYeGBX-EkU
 - https://www.youtube.com/watch?v=53AwXHyC7SE
 - https://www.edushots.com/Machine-Learning/unsupervised-machine-learning-overview
+- https://www.youtube.com/watch?v=S7oA5C43Rbc
