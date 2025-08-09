@@ -161,7 +161,6 @@ Learns the underlying patterns in a given dataset and generate new data that sha
 - Classifies general topic from list of 600 categories and subcategories
 
 
-
 Sentiment Analysis:
 <img src="images/sentimentanalysis_aspects.png"/>
 

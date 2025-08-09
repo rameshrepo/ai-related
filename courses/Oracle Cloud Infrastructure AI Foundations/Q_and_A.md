@@ -27,3 +27,27 @@ a. Logistic Regression
 b. K-Means Clustering  
 c. Linear Regression  
 d. Decision Tree Classification  
+
+**6) Which type of Machine Learning algorithm learns from outcomes to make decisions?**  
+a. Reinforcement Learning  
+b. Supervised Learning  
+c. Unsupervised Learning  
+d. Natural Language Processing 
+
+**7) As an IT manager for your company, you are responsible for migrating your company's image and video analysis workloads to Oracle Cloud Infrastructure (OCI). Your team is particularly interested in a cloud service that offers advanced computer vision capabilities, including customer model training. Which OCI service would you consider for this purpose?**  
+a. OCI Speech  
+b. OCI Vision  
+c. OCI Language  
+d. OCI Document Understanding  
+
+**8) How does Oracle Cloud Infrastructure Anomaly Detection service contribute to fraud detection?**  
+a. By analyzing text sentiment  
+b. By identifying abnormal patterns in data  
+c. By generating spoken language from text  
+d. By transcribing spoken language  
+
+**9) Which capability is supported by Oracle Cloud Infrastructure Language service?**   
+a. Converting text into images  
+b. Detecting objects and scenes in images  
+c. Translating speech into text  
+d. Analyzing text to extract structured information like sentiment and entities
