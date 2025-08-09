@@ -139,17 +139,34 @@ Key Differences between Sequence and Non-sequential models:
 - Applications: Sequential models are ideal for tasks like time-series forecasting, natural language processing, and speech recognition. Non-sequential models are suited for static tasks like image classification, tabular data analysis, and clustering.
 - Complexity: Sequential models are generally more complex due to the need to handle memory, attention, and dependencies. Non-sequential models are typically simpler, focusing on global patterns or relationships.
 
-
-
-
-
 ## GenAI and LLM Foundations
+
+Generative AI is a subset of Deep Learning where the models are trained to generate output / create content on their own. The newly created content can be images, text, music/audio, videos.
+
+New Content: Text Generation, Image Generation, Video Generation etc.,
+
+Learns the underlying patterns in a given dataset and generate new data that shares those patterns.
 
 ## OCI AI Portfolio
 
 ## OCI Gen AI Services
 
 ## OCI AI Services
+
+### Language
+- Language Detection - Detects the language of your text - Recognizes close to 75 languages
+- Named entity recognition - Identifies entities in Text like Names, places, currency, dates, email, phone numbers etc.,
+- Sentiment Analysis - (Document level sentiment, Aspect based sentiment, Sentence level sentiment) - Identifies sentiment for each aspect of text and the sentiment of every sentence or the subject as a whole
+- Key phrase extraction - Identifies key phrases that represent important ideas or subjects
+- Classifies general topic from list of 600 categories and subcategories
+
+
+
+Sentiment Analysis:
+<img src="images/sentimentanalysis_aspects.png"/>
+
+The above example shows two aspects in one review. About the ```food``` and the ```service```
+
 
 
 ### Reference
