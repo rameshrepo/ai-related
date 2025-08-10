@@ -154,17 +154,73 @@ Learns the underlying patterns in a given dataset and generate new data that sha
 ## OCI AI Services
 
 ### Language
-- Language Detection - Detects the language of your text - Recognizes close to 75 languages
-- Named entity recognition - Identifies entities in Text like Names, places, currency, dates, email, phone numbers etc.,
-- Sentiment Analysis - (Document level sentiment, Aspect based sentiment, Sentence level sentiment) - Identifies sentiment for each aspect of text and the sentiment of every sentence or the subject as a whole
-- Key phrase extraction - Identifies key phrases that represent important ideas or subjects
-- Classifies general topic from list of 600 categories and subcategories
-
+- **Language Detection** - Detects the language of your text - Recognizes close to 75 languages
+- **Named Entity Extraction (NER)** - Identifies entities in Text like Names, places, currency, dates, email, phone numbers etc., Highlights the Entity, Type of Entity and Confidence Level
+- **Sentiment Analysis** - (Document level sentiment, Aspect based sentiment, Sentence level sentiment) - Identifies sentiment for each aspect of text and the sentiment of every sentence or the subject as a whole
+- **Key phrase extraction** - Identifies key phrases that represent important ideas or subjects
+- **Text Classification** - Classifies general topic from list of 600 categories and subcategories
 
 Sentiment Analysis:
+
 <img src="images/sentimentanalysis_aspects.png"/>
 
 The above example shows two aspects in one review. About the ```food``` and the ```service```
+
+### Speech  
+
+(Currently support English, Spanish and Portuguese)
+
+- Transcribes audio and video files using deep learning techniques
+- Process the data directly in Object storage and generates timestamped accurate transcriptions.
+- Punctuates transcriptions to make text more readable
+- SRT closed caption file support
+
+**Normalization**:  Making transcribe text more readable to resemble how humans write. This includes address, date, time, numbers, urls etc.,  
+
+Unnormalized --> Normalized
+This laptop costs on thousand three hundred and fifty-five dollars --> This laptop costs $1,355
+
+**Profanity Filtering**  
+Remove or Tag or Mask the text in the output text.  
+Masking is a straightforward method of obscuring offensive words, while tagging provides a way to identify and label them for further actions.
+
+<img src="images/normalization_profanityfiltering.png"/>
+
+### Vision
+Vision services is about Image Classification, Object detection and Document AI
+
+- **Object Detection** - Detect objects inside a image and give a bounding box with a label for it with a accuracy percentage. It also extracts all the Text inside the image like Car license plate numbers, advetisements, building name  
+- **Image Classification** - Labels the scene  
+
+Document AI
+Understand PDFs, JPEG, PNG etc which has textual information
+- **Text Recognition** - Extracts text from Images  
+- **Document Classification** - Parses document into 10 different types based on appearance like Resume, Receipt/Invoice etc.,  
+- **Language Detection** - Visual features of text rather than text itself to get the language
+- **Table Extraction** - Identifies and extracts from invoices, POs and receipts  
+- **Key Value Extraction** - Finds values for 13 common fields and line items in receipts like Merchant Name, transaction date etc.,
+
+Key Value Extraction 
+
+<img src="images/document_ai_keyvalueextraction.png"/>
+
+
+Tabular Value Extraction
+
+<img src="images/document_tabularformat.png"/>
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

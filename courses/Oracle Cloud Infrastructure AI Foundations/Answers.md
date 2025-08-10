@@ -45,3 +45,9 @@ a. By analyzing text sentiment
 **b. By identifying abnormal patterns in data**  
 c. By generating spoken language from text  
 d. By transcribing spoken language  
+
+**9) Which capability is supported by Oracle Cloud Infrastructure Language service?**   
+a. Converting text into images  
+b. Detecting objects and scenes in images  
+c. Translating speech into text  
+**d. Analyzing text to extract structured information like sentiment and entities**  
