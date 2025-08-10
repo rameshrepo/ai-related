@@ -145,7 +145,21 @@ Generative AI is a subset of Deep Learning where the models are trained to gener
 
 New Content: Text Generation, Image Generation, Video Generation etc.,
 
-Learns the underlying patterns in a given dataset and generate new data that shares those patterns.
+Learns the underlying patterns in a given dataset and **create/generate new data** that shares those patterns. Under the hood, lot of mathematics is involved.
+
+**Model Training - Supervised ML** - Learning new capability from existing data. During training, the model learns the relationship from the input features and the corresponding output labels from the provided training dataset. After it is trained, the model can make predictions. **Inference is the process of making predictions for a new data point using the trained model.**
+
+<img src="images/training_inference.png"/>
+
+**How Gen AI is different from Supervised ML**  
+In case Gen AI, it doesn't require any labelled data for training. Learn patterns from unstructed content to produce new content
+
+<img src="images/genai_unstructued_unlabelleddata.png"/>
+
+**Types of GenAI models**  
+- **Text Based models** - Can generated text,code, dialogue, articles, poems etc., Learns from large collections of text data to capture patterns, language structures and semantic relationships
+- **Multimodal models** - Generate multiple modalities like text, images, audio and video.
+
 
 ## OCI AI Portfolio
 
@@ -224,7 +238,7 @@ Tabular Value Extraction
 
 
 
-### Reference
+## Reference
 - https://github.com/debabrata2050/Oracle-Certificate
 - https://www.youtube.com/watch?v=15aLvsG5tlg
 - https://www.youtube.com/watch?v=3PYeGBX-EkU
