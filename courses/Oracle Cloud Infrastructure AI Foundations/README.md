@@ -160,6 +160,58 @@ In case Gen AI, it doesn't require any labelled data for training. Learn pattern
 - **Text Based models** - Can generated text,code, dialogue, articles, poems etc., Learns from large collections of text data to capture patterns, language structures and semantic relationships
 - **Multimodal models** - Generate multiple modalities like text, images, audio and video.
 
+**Large Language Model**
+
+LLM - A language model (LM) is a probabilistic model of text. The Large in LLM refers to the number of parameters. LLM are based on a Deep Learing architecture called Transformer. LLMs are deep neural networks trained on massive amounts of text/data namely the publicly available data.
+
+In LLM, **Parameters are adjustable weights in the model's neural network**. Model size is the memory required to store the model's parameters.
+
+**Transformer Architecture**
+
+
+### Prompt Engineering
+
+Prompt is the input or initial text provided to the model to get back the Generated Text.  
+Prompt Engineering is the process of iteratively refining the prompt for the purpose of eliciting a particular style of response.
+
+<img src="images/prompt.png"/>
+
+Instruction tuning is a critical step in LLM alignment. It involves fine-tuning a pre-trained LLM on a varied set of instructions, each paired with a desired output.
+
+In the both the below cases of prompting technique, it is not learning in true sense as none of the paramters of the model are changed  
+- **In-context Learning and Few-shot prompting** - Conditioning an LLM with instructions and or **demonstrations of the task it is meant to complete**. k-shot prompting..0-shot promting, 1-shot prompting to a k-shot prompting
+- **Chain of thought prompting** - Break the prompt **(problem) into small chucks** like how you approach to solve each of the small problems.
+
+
+Hallucination - Model generated text that is non-factual and/or ungrounded into any data that the model is exposed to. Some methods that are claimed to reduce hallucination (eg., RAG)
+
+### Customize LLMs with your data
+
+- **Prompt Engineering** - Context Optimization (What the model needs to know)
+- **Retrieval-Augmented Generation (RAG)** 
+- **Fine-tuning** 
+
+#### Retrieval Augument Generation (RAG)
+
+Language model can query enterprise knowledge bases (databases, wikis, vector databases) to provide grounded responses. RAG does not require fine-tuning. RAG gives **access to private knowledge** which otherwise will not be available for the LLMs. 
+
+Two major components of RAG  
+- Retrieval refers to the access to private knowledge base or Enterprise vector database or other corpus of information relevant to the user.
+- Augmented Generation. Here, we are using the information retrieved to form a more informed response. Here, we are giving the LLM access to private knowledge which otherwise will not be available for the LLM.  
+
+#### Fine Tuning
+
+<img src="images/finetuning_LLM.png"/>
+
+Used when you want to teach your LLM something new. Customize the model to domain-specific data and generate contextually relevant responses. Improve model performance for specific tasks.
+
+<img src="images/finetuning_LLM_1.png"/>
+
+#### Which customization technique to use
+
+<img src="images/LLM_Customize_UseCases.png"/>
+
+
 
 ## OCI AI Portfolio
 

@@ -51,3 +51,33 @@ a. Converting text into images
 b. Detecting objects and scenes in images  
 c. Translating speech into text  
 **d. Analyzing text to extract structured information like sentiment and entities**  
+
+**10) Which capability is offered by the OCI Language service?**  
+**a. Text Sentiment Analysis**  
+b. Object Detection  
+c. Speech-to-Text conversion  
+d. Image Recognition  
+
+**11) Which capability of OCI Vision service uses a bounding box inside an image?**  
+a. Image Recognition  
+b. Object Repair  
+c. Image Classification  
+**d. Object Detection**  
+
+**12) Which Neural Network has a feedback loop and is designed to handle sequential data?**  
+a. Feed Forward Neural Networks  
+b. Convolution Neural Networks  
+c. Multi-Layer Perceptron Neural Networks  
+**d. Recurrent Neurak Networks**  
+
+**13) Which type of Recurrent Neural Network (RNN) architecture is used for Machine Translation?**  
+a. Many-to-One  
+**b. Many-to-Many**  
+c. One-to-Many  
+d. One-to-One  
+
+**14) Which OCI service is used to extract tabular content from documents?**  
+**a. Vision**  
+b. Object Storage  
+c. Language  
+d. Speech  
