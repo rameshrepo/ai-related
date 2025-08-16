@@ -81,3 +81,33 @@ d. One-to-One
 b. Object Storage  
 c. Language  
 d. Speech  
+
+**15) What is the advantage of using OCI Super Clusters for AI workloads?**  
+a. Provide a cost effective solution for simple AI tasks  
+b. Are ideal for tasks like text-to-speech conversion  
+**c. Deliver exceptional performance and scalability for complex AI tasks.**  
+d. Offer seamless integration with social media platforms.  
+
+**16) Which OCI Data science feature allows you to use catalogued models as HTTP endpoints on fully managed infrastructure?**  
+**a. Model Deployments**  
+b. Jobs  
+c. Model Catalog  
+d. Conda Environments 
+
+**17) Which OCI Data science feature enables you to define and run repeatable machine learning tasks on fully managed infrastructure?**  
+a. Model Detection  
+b. Model Catalog  
+**c. Jobs**  
+d. Conda Environments  
+
+**18) Which is NOT an Oracle Cloud Infrastructure AI Service?**  
+a. Speech  
+b. Vision  
+**c. Translator**  
+d. Language
+
+**19) Which data type is used in Oracle Database 23ai to compare documents?**  
+a. Boolean  
+b. Array  
+**c. Vector**  
+d. String 

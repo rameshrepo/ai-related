@@ -145,6 +145,8 @@ Generative AI is a subset of Deep Learning where the models are trained to gener
 
 New Content: Text Generation, Image Generation, Video Generation etc.,
 
+#### Introduction to Generative AI
+
 Learns the underlying patterns in a given dataset and **create/generate new data** that shares those patterns. Under the hood, lot of mathematics is involved.
 
 **Model Training - Supervised ML** - Learning new capability from existing data. During training, the model learns the relationship from the input features and the corresponding output labels from the provided training dataset. After it is trained, the model can make predictions. **Inference is the process of making predictions for a new data point using the trained model.**
@@ -160,16 +162,16 @@ In case Gen AI, it doesn't require any labelled data for training. Learn pattern
 - **Text Based models** - Can generated text,code, dialogue, articles, poems etc., Learns from large collections of text data to capture patterns, language structures and semantic relationships
 - **Multimodal models** - Generate multiple modalities like text, images, audio and video.
 
-**Large Language Model**
+#### Introduction to Large Language Models
 
 LLM - A language model (LM) is a probabilistic model of text. The Large in LLM refers to the number of parameters. LLM are based on a Deep Learing architecture called Transformer. LLMs are deep neural networks trained on massive amounts of text/data namely the publicly available data.
 
 In LLM, **Parameters are adjustable weights in the model's neural network**. Model size is the memory required to store the model's parameters.
 
-**Transformer Architecture**
+#### Transformer Architecture
 
 
-### Prompt Engineering
+#### Prompt Engineering
 
 Prompt is the input or initial text provided to the model to get back the Generated Text.  
 Prompt Engineering is the process of iteratively refining the prompt for the purpose of eliciting a particular style of response.
@@ -185,13 +187,13 @@ In the both the below cases of prompting technique, it is not learning in true s
 
 Hallucination - Model generated text that is non-factual and/or ungrounded into any data that the model is exposed to. Some methods that are claimed to reduce hallucination (eg., RAG)
 
-### Customize LLMs with your data
+#### Customize LLMs with your data
 
 - **Prompt Engineering** - Context Optimization (What the model needs to know)
 - **Retrieval-Augmented Generation (RAG)** 
 - **Fine-tuning** 
 
-#### Retrieval Augument Generation (RAG)
+**Retrieval Augument Generation (RAG)**
 
 Language model can query enterprise knowledge bases (databases, wikis, vector databases) to provide grounded responses. RAG does not require fine-tuning. RAG gives **access to private knowledge** which otherwise will not be available for the LLMs. 
 
@@ -199,7 +201,7 @@ Two major components of RAG
 - Retrieval refers to the access to private knowledge base or Enterprise vector database or other corpus of information relevant to the user.
 - Augmented Generation. Here, we are using the information retrieved to form a more informed response. Here, we are giving the LLM access to private knowledge which otherwise will not be available for the LLM.  
 
-#### Fine Tuning
+**Fine Tuning**
 
 <img src="images/finetuning_LLM.png"/>
 
@@ -207,13 +209,48 @@ Used when you want to teach your LLM something new. Customize the model to domai
 
 <img src="images/finetuning_LLM_1.png"/>
 
-#### Which customization technique to use
+**Which customization technique to use**
 
 <img src="images/LLM_Customize_UseCases.png"/>
 
 
-
 ## OCI AI Portfolio
+
+<img src="images/oci_ai_infrastructure.png"/>
+
+Oracle Cloud Infrastructure (OCI) Data Science is a fully managed and serverless platform for **data science teams to build, train, and manage machine learning models.**
+
+### OCI Datascience
+
+<img src="images/oci_datascience_terminology.png"/>
+
+#### Ways to access Data science
+- OCI console - Browser based and Notebook sessions
+- Rest API
+- Language SDKs
+- CLI
+
+#### OCI data science
+- Build,train and deploy ML models
+- Used by Data scientist throughout the ML lifecycle
+- Juypterlab notebook interface
+- Model Catalog - A centralized repository for storing and managing trained models. 
+- Jobs
+- Model deployments
+
+#### Model Deployments
+When you deploy a model, you select the shape type and the number of replicas hosting the model servers. You can also select the load balancer bandwidth associated with the deployment.
+
+Deploying a machine learning model on Oracle Cloud Infrastructure (OCI) and **accessing it via a REST endpoint** involves using the **OCI Data Science service's Model Deployment feature**.
+
+#### Models
+**Model Catalog is a centralized repository for storing and managing trained models.** When you **save a model to the model catalog**, you're charged for the storage of the model artifact at the standard Object Storage rates in terms of GB per month.  When you delete a model, you're no longer charged
+
+#### Jobs
+Oracle Cloud Infrastructure (OCI) Data Science Jobs (Jobs) enables you to **define and run repeatable machine learning tasks on a fully managed infrastructure**. You can create a compute resource on demand and run applications that perform tasks such as data preparation, model training, hyperparameter tuning, and batch inference.
+
+### AI Infrastructure
+
 
 ## OCI Gen AI Services
 
@@ -258,7 +295,7 @@ Vision services is about Image Classification, Object detection and Document AI
 - **Object Detection** - Detect objects inside a image and give a bounding box with a label for it with a accuracy percentage. It also extracts all the Text inside the image like Car license plate numbers, advetisements, building name  
 - **Image Classification** - Labels the scene  
 
-Document AI
+### Document Understanding
 Understand PDFs, JPEG, PNG etc which has textual information
 - **Text Recognition** - Extracts text from Images  
 - **Document Classification** - Parses document into 10 different types based on appearance like Resume, Receipt/Invoice etc.,  
