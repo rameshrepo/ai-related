@@ -103,7 +103,7 @@ d. Conda Environments
 **18) Which is NOT an Oracle Cloud Infrastructure AI Service?**  
 a. Speech  
 b. Vision  
-c. Translator
+c. Translator  
 d. Language
 
 **19) Which data type is used in Oracle Database 23ai to compare documents?**  
@@ -111,3 +111,51 @@ a. Boolean
 b. Array  
 c. Vector  
 d. String  
+
+**20) Sequence models are used to solve problems involving sequentially ordered data points or events. Which is NOT the best use case for sequence models?**  
+a. Natural language processing tasks like sentiment analysis.  
+b. Image classification and object recognition  
+c. Time series analysis and forecasting  
+d. Speech recognition and language translation  
+
+**21) Which statement accurately describes generative AI?**  
+a. Limits functions to generating only text-based outputs.  
+b. Focuses on making accurate predictions based on training data.  
+c. Creates new content without making predictions. 
+d. Exclusively trains to predict future data patterns.  
+
+**22) Fine-tuning is unnecessary for Large Language Models (LLMs) if your application does not involve which specific aspect?**  
+a. Domain vocabulary.  
+b. Task specific adaptation  
+c. Efficiency and resource utilization.  
+d. Bias mitigation.  
+
+**23) What aspect of Large Language Models significantly impacts their capabilities, performance and resource requirements?**  
+a. Total number of GPUs used for model training.   
+b. Model size and parameters including the number of tokens and weights  
+c. Complexity of the programming languages used for model development.  
+d. Number of training iterations performed during model training.  
+
+**24) What is "in-context learning" in the context of large language models (LLMs)?**  
+a. Training a model on a diverse range of tasks.  
+b. Modifying the behaviour of a pretrained LLM permanently.  
+c. Providing a few examples of a target task via the input prompt.  
+d. Teaching the model through zero-shot learning.
+
+**25) Which type of function is used in Logistic Regression to predict a loan defaulter?**  
+a. Gaussian function  
+b. Step function  
+c. Sigmoidal function  
+d. Identity function 
+
+26) How do hidden layers in neural networks help with character recognition?
+a. Increasing the network's processing speed.
+b. Enabling the network to learn complex features like edges and shapes.
+c. Improving the interpretability of the model's decisions.
+d. Directly mapping input characters to output predictions.
+
+**27) Which essential component of Artifical Neural Network performs weighted summation and applies activation function on input data to produce an output?**   
+a. Iterator  
+b. Bias  
+c. Classifier  
+d. Neuron  
